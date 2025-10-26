@@ -2,8 +2,8 @@ name: Generate Pac-Man Graph
 
 on:
   schedule:
-    - cron: '0 0 * * *' # roda todo dia à meia-noite
-  workflow_dispatch: # permite rodar manualmente
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
   build:
@@ -21,6 +21,9 @@ jobs:
       - name: Install Pac-Man Graph
         run: npm install -g pacman-graph
 
+      - name: Create output directory
+        run: mkdir -p ./output
+
       - name: Generate Pac-Man Graph
         run: pacman-graph --username felipeaparecidoneves-web --output ./output/pacman-contribution-graph.svg
 
@@ -29,5 +32,5 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add ./output/pacman-contribution-graph.svg
-          git commit -m "Update Pac-Man graph"
+          git diff --cached --quiet || git commit -m "Update Pac-Man graph"
           git push
