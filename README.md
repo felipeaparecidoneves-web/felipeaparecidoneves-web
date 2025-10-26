@@ -8,7 +8,12 @@
 
 ###
 
-<p align="left">I'm Felipe Neves 👋  <br><br>- 🎓 I’m studying Systems Development<br>- 📚 I’m currently learning new programming languages and deepening my knowledge  <br>- ☕ Future Java Developer</p>
+<p align="left">
+I'm Felipe Neves 👋  <br><br>
+- 🎓 I’m studying Systems Development<br>
+- 📚 I’m currently learning new programming languages and deepening my knowledge<br>
+- ☕ Future Java Developer
+</p>
 
 ###
 
@@ -25,6 +30,7 @@
 
 ###
 
+<!-- Pacman Contribution Graph -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/felipeaparecidoneves-web/felipeaparecidoneves-web/main/output/pacman-contribution-graph-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/felipeaparecidoneves-web/felipeaparecidoneves-web/main/output/pacman-contribution-graph.svg">
@@ -80,5 +86,3 @@
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firefox/firefox-original.svg" height="40" alt="firefox logo"  />
 </div>
-
-###
