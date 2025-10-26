@@ -26,9 +26,9 @@
 ###
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/felipeaparecidoneves-web/felipeaparecidoneves-web/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/felipeaparecidoneves-web/felipeaparecidoneves-web/output/pacman-contribution-graph.svg">
-  <img alt="Gráfico de contribuições do Pac-Man" src="https://raw.githubusercontent.com/felipeaparecidoneves-web/felipeaparecidoneves-web/output/pacman-contribution-graph.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/felipeaparecidoneves-web/felipeaparecidoneves-web/main/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/felipeaparecidoneves-web/felipeaparecidoneves-web/main/output/pacman-contribution-graph.svg">
+  <img alt="Gráfico de contribuições do Pac-Man" src="https://raw.githubusercontent.com/felipeaparecidoneves-web/felipeaparecidoneves-web/main/output/pacman-contribution-graph.svg">
 </picture>
 
 ###
